@@ -28,3 +28,7 @@ Baixe o mongoDB compass aqui https://www.mongodb.com/download-center/compass par
 Instale o pacote mongoose no seu projeto utilizando yarn, npm ou qualquer outro package manager de sua escolha
 aqui usaremos o yarn.
 yarn add mongoose.
+
+Créditos ao site :http://nodebr.com/nodejs-e-mongodb-introducao-ao-mongoose/
+https://medium.com/@renato.groffe/docker-nosql-executando-o-mongodb-e-o-redis-a-partir-de-containers-3c143e920f09
+e a Rocketseat, pois várias informações foram tiradas deles.
