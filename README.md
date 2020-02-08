@@ -11,16 +11,18 @@ link do docker:https://hub.docker.com
 Baixem e instalem o insomnia por aqui https://insomnia.rest/download é um programa onde você pode testar suas aplicações REST ao invés de testá-las no navegador.
 
 Vão agora no powershell do seu w10 e digitem, docker pull mongo. Espere um pouco e assim irá baixar a versão mais recente do mongo.
-Depois de baixado digite docker images e irá aparecer a sua imagem do mongo (imagem 1).
+Depois de baixado, digite docker images e irá aparecer a sua imagem do mongo.
+![](tutorial/imagem1.png)
 
 Execute ainda no powershell, docker run --name mongoDatabase -p 27017:27017 -d mongo. Onde mongoDatabase é o nome do container a ser criado.Se você quiser saber mais sobre os outros parâmetros acesse:
 https://medium.com/@renato.groffe/docker-nosql-executando-o-mongodb-e-o-redis-a-partir-de-containers-3c143e920f09.
 O link acima é da onde foi tirado a maior parte de instalação do mongo desse tutorial, créditos ao Renato groffe que foi o criador do tutorial.
 
-Digite docker ps -a e deve aparecer a sua imagem mongo com o nome que você criou o contai
-ner. (imagem 2)
+Digite docker ps -a e deve aparecer a sua imagem mongo com o nome que você criou o container.
+![](tutorial/imagem2.png)
 
-Agora pra você saber se o mongo está rodando, digite, localhost:27017 deve aparecer essa mensagem no seu navegador: (imagem 3)
+Agora pra você saber se o mongo está rodando, digite no seu navegador, localhost:27017 e deve aparecer essa mensagem:
+![](tutorial/imagem3.png)
 Baixe o mongoDB compass aqui https://www.mongodb.com/download-center/compass para você poder visualizar suas database do mongo
 
 Instale o pacote mongoose no seu projeto utilizando yarn, npm ou qualquer outro package manager de sua escolha
